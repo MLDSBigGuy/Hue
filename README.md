@@ -1,4 +1,5 @@
-# Spark Stream Processing to view stream in DSrteams and RDDs
+# Spark Stream Processing to view stream in DSrteams and RDDs (streaming ---windowing, watermarking)
+- Spark is built on top of hadoop 
 - Basic transfromation on Dstreams to extract info we need
 - Hadoop distrubuted computing framework has hdfs which takes care of storeage and multiple 
 - maprreduce to process data across multple servers 
@@ -32,6 +33,7 @@
 
 
 - spark interactvive shell 
+
   - print conetent of rdd with studemts.collect()
   - stu.take(4) - first 4 elements 
 - from pyspark import sparkcontext as sc
@@ -64,7 +66,6 @@
   
   
 
-
-
+- To do all data manipulations, u can do it ión pandas and convert pandas dataframe to Spark RDD and viceversa 
 
 
